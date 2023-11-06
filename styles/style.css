@@ -1,60 +1,64 @@
 .content-section {
-    width: 100%;
-    margin: 0 auto;
-  }
-  
-  .header {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: repeat(1, 109px);
-    place-content: center space-evenly;
-    place-items: center start;
-    width: 1440px;
-    padding: 92px 49px 92px 51px;
-  }
-  
-  .header__menu-list {
-    display: flex;
-    gap: 32px;
-    list-style: circle;
-  }
-  
-  .header__menu-link {
-    color: #000;
-    font-size: 18px;
-    line-height: normal;
-    text-underline-position: under;
-  }
-  
-  .header__logo {
-    display: block;
-    width: 138px;
-    height: 105px;
-    justify-self: center;
-    align-self: center;
-  }
-  
-  .header__logo-image {
-    width: 100%;
-  }
-  
-  .header__menu-item-active, .header__menu-link {
-    text-decoration: none;
-  }
-  
-  .header__contacts {
-    align-self: center;
-    justify-self: end;
-  }
-  
-  .header__menu-link-nomark {
-    list-style: none;
-  }
-  
-  .header__contacts-link {
-    display: block;
-    color: #000;
-    font-size: 18px;
-    text-underline-position: under;
-    line-height: 24.3px;
-  }
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(1, 109px);
+  place-content: center space-evenly;
+  place-items: center start;
+  width: 1440px;
+  padding: 92px 49px 92px 51px;
+}
+
+.header__menu-list {
+  display: flex;
+  gap: 32px;
+  list-style: circle;
+  margin-top: 4px;
+  margin-left: 1px;
+}
+
+.header__menu-link {
+  color: #000;
+  font-size: 18px;
+  line-height: normal;
+  text-underline-position: under;
+}
+
+.header__menu-link-nomark,
+.header__menu-link-home {
+  color: #000;
+  font-size: 18px;
+  list-style: none;
+  text-decoration: none;
+}
+
+.header__logo {
+  display: block;
+  width: 138px;
+  height: 105px;
+  justify-self: center;
+  align-self: center;
+}
+
+.header__logo-image {
+  width: 100%;
+}
+
+.header__contacts {
+  align-self: center;
+  justify-self: end;
+  margin-top: 3px;
+  margin-right: 3px;
+}
+
+.header__contacts-link {
+  display: block;
+  color: #000;
+  font-size: 18px;
+  text-underline-position: under;
+  line-height: 24.3px;
+}
