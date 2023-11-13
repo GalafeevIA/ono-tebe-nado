@@ -130,25 +130,29 @@
   gap: 78px;
   padding: 135px 0 0;
 }
+
 .text-style {
   color: #fff;
   font-family: Raleway;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
-  line-height: 28px; 
+  line-height: 28px;
   text-transform: uppercase;
   letter-spacing: normal;
 }
+
 .form-item {
   display: block;
 }
+
 .text {
   display: block;
   justify-content: center;
   line-height: 1.27;
   word-spacing: 18px;
 }
+
 .button {
   width: 257px;
   height: 52px;
