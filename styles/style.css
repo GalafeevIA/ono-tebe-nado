@@ -161,7 +161,9 @@
 }
 
 .lots {
-  padding: 180px;
+  width: 1340px;
+  height: 579px;
+  margin-top: 180px;
 }
 .title_section {
   color: #000;
@@ -171,7 +173,7 @@
   font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
-  padding: 0 0 27px 10px;
+  padding: 0 0 27px 40px;
 }
 .lots__card-list {
   display: flex;
@@ -246,7 +248,9 @@
 }
 
 .lots__look-more-link {
-  margin: 30px 0 0 10px;
+  padding-top:30px;
+  padding-left: 40px;
+  height: 55px;
   font-size: 20px;
   text-decoration-line: underline;
   text-underline-position: under;
