@@ -1,4 +1,5 @@
 .content-section {
+  
   width: 100%;
   margin: 0 auto;
 }
@@ -160,6 +161,7 @@
 }
 
 .lots {
+  
   width: 1340px;
   height: 579px;
   margin-top: 180px;
@@ -301,4 +303,51 @@
   font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
+}
+
+.footer {
+  width: 1340px;
+  display: flex;
+  justify-content: space-between;
+  padding: 2px 0;
+}
+.footer__contacts {
+  align-self: center;
+  justify-self: end;
+  margin-bottom: 1px;
+  margin-right: 3px;
+}
+
+.footer__contacts-link {
+  display: block;
+  color: #000;
+  font-size: 18px;
+  text-underline-position: under;
+  line-height: 24.3px;
+}
+
+.footer__social-icon {
+  width: auto;
+  height: 48px;
+}
+
+.footer__menu-list {
+  text-align: center;
+  list-style: none;
+}
+
+.footer__menu-link {
+  font-size: 18px;
+  line-height: normal;
+  text-underline-position: under;
+}
+
+.footer__menu-link_active {
+  text-decoration: none;
+}
+
+.footer__social-list {
+  display: flex;
+  gap: 48px;
+  list-style: none;
 }
