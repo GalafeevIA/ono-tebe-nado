@@ -331,14 +331,14 @@
   list-style: none;
 }
 
+.footer__menu-link_active {
+  text-decoration: none;
+}
+
 .footer__menu-link {
   font-size: 18px;
   line-height: normal;
   text-underline-position: under;
-}
-
-.footer__menu-link_active {
-  text-decoration: none;
 }
 
 .footer__social-list {
