@@ -55,8 +55,8 @@
   align-self: center;
   justify-self: end;
   margin-bottom: 0;
-  margin-right: -11px;
-  max-width: 250px;
+  margin-right: 0;
+  max-width: 240px;
 }
 
 .header__contacts-link {
